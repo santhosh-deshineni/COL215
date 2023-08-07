@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "8" -L "secureip" --snapshot "BitDisp_behav" "xil_defaultlib.BitDisp" -log "elaborate.log" 

@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "8" -L "xil_defaultlib" -L "secureip" --snapshot "stopwatch_behav" "xil_defaultlib.stopwatch" -log "elaborate.log" 

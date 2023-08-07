@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1668398319">
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="MATMUL_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS" Name="MATMUL_routed.rqs"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="RDI-RDI" Name="MATMUL.vdi"/>
+  <File Type="BG-DRC" Name="MATMUL.drc"/>
+  <File Type="BG-BGN" Name="MATMUL.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="MATMUL.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="MATMUL.ltx"/>
+  <File Type="RBD_FILE" Name="MATMUL.rbd"/>
+  <File Type="NPI_FILE" Name="MATMUL.npi"/>
+  <File Type="RNPI_FILE" Name="MATMUL.rnpi"/>
+  <File Type="CFI_FILE" Name="MATMUL.cfi"/>
+  <File Type="RCFI_FILE" Name="MATMUL.rcfi"/>
+  <File Type="PDI-FILE" Name="MATMUL.pdi"/>
+  <File Type="BITSTR-MMI" Name="MATMUL.mmi"/>
+  <File Type="BITSTR-BMM" Name="MATMUL_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="MATMUL.nky"/>
+  <File Type="BITSTR-RBT" Name="MATMUL.rbt"/>
+  <File Type="BITSTR-MSK" Name="MATMUL.msk"/>
+  <File Type="BG-BIN" Name="MATMUL.bin"/>
+  <File Type="BG-BIT" Name="MATMUL.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="MATMUL_bus_skew_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="MATMUL_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="MATMUL_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="MATMUL_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="MATMUL_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="MATMUL_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="MATMUL_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="MATMUL_postroute_physopt.dcp"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="MATMUL_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="MATMUL_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW" Name="MATMUL_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="MATMUL_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="MATMUL_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="MATMUL_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="MATMUL_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="MATMUL_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="MATMUL_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="MATMUL_route_status.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="MATMUL_power_routed.rpx"/>
+  <File Type="ROUTE-PWR-SUM" Name="MATMUL_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="MATMUL_power_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="MATMUL_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="MATMUL_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="MATMUL_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="MATMUL_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="MATMUL_drc_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="MATMUL_drc_routed.rpt"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="MATMUL_routed_bb.dcp"/>
+  <File Type="ROUTE-DCP" Name="MATMUL_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="MATMUL_routed_error.dcp"/>
+  <File Type="PHYSOPT-TIMING" Name="MATMUL_timing_summary_physopted.rpt"/>
+  <File Type="PHYSOPT-DRC" Name="MATMUL_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="MATMUL_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="MATMUL_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="MATMUL_postplace_pwropt.dcp"/>
+  <File Type="PLACE-TIMING" Name="MATMUL_timing_summary_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="MATMUL_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="MATMUL_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="MATMUL_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="MATMUL_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="MATMUL_utilization_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="MATMUL_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="MATMUL_io_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="MATMUL_placed.dcp"/>
+  <File Type="PWROPT-TIMING" Name="MATMUL_timing_summary_pwropted.rpt"/>
+  <File Type="PWROPT-DRC" Name="MATMUL_drc_pwropted.rpt"/>
+  <File Type="PWROPT-DCP" Name="MATMUL_pwropt.dcp"/>
+  <File Type="OPT-TIMING" Name="MATMUL_timing_summary_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="MATMUL.hwdef"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="MATMUL_methodology_drc_opted.rpt"/>
+  <File Type="OPT-DRC" Name="MATMUL_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="MATMUL_opt.dcp"/>
+  <File Type="INIT-TIMING" Name="MATMUL_timing_summary_init.rpt"/>
+  <File Type="REPORTS-TCL" Name="MATMUL_reports.tcl"/>
+  <File Type="PA-TCL" Name="MATMUL.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../Assignment 3/Assignment 3.srcs/sources_1/imports/Downloads/Clock.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Assignment 3/Assignment 3.srcs/sources_1/imports/Downloads/Decoder.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Assignment 3/Assignment 3.srcs/sources_1/imports/Downloads/Display.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../project_1/project_1.srcs/sources_1/new/FSM.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../project_1/project_1.srcs/sources_1/new/MAC.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Assignment 3/Assignment 3.srcs/sources_1/imports/Downloads/MUX.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../project_1/project_1.srcs/sources_1/new/register8.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../project_1/project_1.srcs/sources_1/new/MATMUL.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../project_1/project_1.srcs/sources_1/new/BitDisp.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Downloads/input_1_128x128.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Downloads/new.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="MATMUL"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../project_1/project_1.srcs/constrs_1/new/basys3.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/MATMUL.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="dist_mem_gen_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="dist_mem_gen_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="dist_mem_gen_0"/>
+</GenRun>

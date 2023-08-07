@@ -1,0 +1,185 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+entity AND_gate is
+Port ( start: in STD_LOGIC;
+pause: in STD_LOGIC;
+continue : in STD_LOGIC;
+reset : in STD_LOGIC;
+clk : in STD_LOGIC;
+c : out STD_LOGIC_VECTOR;);
+end AND_gate;
+architecture Behavioral of AND_gate is
+signal p,q,r,s,s0,s1:STD_LOGIC;
+signal clock_count : natural range 0 to 10000000 := 0;
+signal switch_count : natural range 0 to 9 := 0;
+signal seccount : natural range 0 to 59 :=0;
+signal second1 : natural range 0 to 5 :=0;
+signal second2 :natural range 0 to 9 :=0;
+begin
+
+process(reset)
+begin
+if reset == 1 then
+	clock_count <= 0;
+	switch_count <= 0;
+	second2 <= 0;
+	second1 <= 0;
+	mincount <= 0;
+	enable_watch <= 0;
+end process;
+
+process(start)
+begin
+if start == 1 then
+	clock_count <= 0;
+	switch_count <= 0;
+	second2 <= 0;
+	second1 <= 0;
+	mincount <= 0;
+	enable_watch <= 1;
+end process;
+
+process(pause)
+begin
+if pause == 1 then
+	enable_watch <= 0;
+end process;
+
+process(continue)
+begin
+if continue == 1 then
+	enable_watch <= 1;
+end process;
+
+process(clk)
+begin
+if rising_edge(clk) and enable_watch == 1 then
+	if clock_count >= 10000000 then
+		clock_count <= 0;
+		if switch_count >= 9 then
+			switch_count <= 0;
+			if second2 >=9 then 
+				if second1 >=5 then
+					second1 <=0;
+					mincount <= mincount+1;
+				else
+					second1 <= second1+1;
+				second1<=second1+1;
+				end if;
+			else
+				second2 <= second2+1;
+			end if;
+		else
+			switch_count <= switch_count + 1;
+		end if;
+	else
+		clock_count <= clock_count + 1;
+	end if;
+end if;
+end process;
+
+
+process(switch_count)
+begin
+case switch_count is
+when 0 =>
+  c(15 down to 12) <="0000";
+when 1 => 
+  c(15 down to 12) <="0001";
+when 2 => 
+  c(15 down to 12) <="0010";
+when 3 => 
+  c(15 down to 12) <="0011";
+when 4 => 
+  c(15 down to 12) <="0100";
+when 5 => 
+  c(15 down to 12) <="0101";
+when 6 => 
+  c(15 down to 12) <="0110";
+when 7 => 
+  c(15 down to 12) <="0111";
+when 8 => 
+  c(15 down to 12) <="1000";
+when 9 => 
+  c(15 down to 12) <="1001";
+end case;
+end process;
+  
+process(second1)
+begin
+case second1 is
+when 0 => 
+  c(7 down to 4) <="0000";
+when 1 => 
+  c(7 down to 4) <="0001";
+when 2 => 
+  c(7 down to 4) <="0010";
+when 3 => 
+  c(7 down to 4) <="0011";
+when 4 => 
+  c(7 down to 4) <="0100";
+when 5 => 
+  c(7 down to 4) <="0101";
+end case;
+end process;
+  
+process(second2)
+begin
+case second2 is
+when 0 => 
+  c(11 down to 8) <="0000";
+when 1 => 
+  c(11 down to 8) <="0001";
+when 2 => 
+  c(11 down to 8) <="0010";
+when 3 => 
+  c(11 down to 8) <="0011";
+when 4 => 
+  c(11 down to 8) <="0100";
+when 5 => 
+  c(11 down to 8) <="0101";
+when 6 => 
+  c(11 down to 8) <="0110";
+when 7 => 
+  c(11 down to 8) <="0111";
+when 8 => 
+  c(11 down to 8) <="1000";
+when 9 => 
+  c(11 down to 8) <="1001";
+end case;
+end process;
+  
+process(mincount)
+begin
+case mincount is
+when 0 => 
+c(3 down to 0) <="0000";
+when 1 => 
+c(3 down to 0) <="0001";
+when 2 => 
+c(3 down to 0) <="0010";
+when 3 => 
+c(3 down to 0) <="0011";
+when 4 => 
+c(3 down to 0) <="0100";
+when 5 => 
+c(3 down to 0) <="0101";
+when 6 => 
+c(3 down to 0) <="0110";
+when 7 => 
+c(3 down to 0) <="0111";
+when 8 => 
+c(3 down to 0) <="1000";
+when 9 => 
+c(3 down to 0) <="1001";
+end case;
+end process;
+
+
+end Behavioral;  
+when 9 => 
+c(15 down to 11) <="1001";
+end case;
+end proces
+  s;
+end Behavioral;

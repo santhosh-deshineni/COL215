@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Sat Oct 22 13:46:21 2022
+# Process ID: 33698
+# Current directory: /home/btech/cs1210561/project_6/project_6.runs/synth_1
+# Command line: vivado -log BitDisp.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source BitDisp.tcl
+# Log file: /home/btech/cs1210561/project_6/project_6.runs/synth_1/BitDisp.vds
+# Journal file: /home/btech/cs1210561/project_6/project_6.runs/synth_1/vivado.jou
+# Running On: dhd, OS: Linux, CPU Frequency: 2100.000 MHz, CPU Physical cores: 12, Host memory: 33337 MB
+#-----------------------------------------------------------
+source BitDisp.tcl -notrace

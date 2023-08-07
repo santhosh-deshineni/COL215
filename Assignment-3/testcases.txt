@@ -1,0 +1,16 @@
+#print(opt_function_reduce(["a'b'c'd'","a'b'c'd","a'b'cd'","a'b'cd","ab'cd"],[]))
+#print(opt_function_reduce(["abc'd'","ab'cd'","a'bcd'","abcd'","ab'c'd","a'bc'd","abc'd","a'b'cd","ab'cd","a'bcd","abcd"],[]))
+#print(opt_function_reduce(["a'bcd","ab'cd","abc'd","abcd'","ab'c'd'","a'bc'd'","a'b'cd'","a'b'c'd"],[]))
+
+#print(opt_function_reduce(["a'b'c'd'","a'b'c'd","a'b'cd'","a'bc'd","a'bcd","a'bcd'","abc'd'","abc'd","abcd","ab'c'd'","ab'cd","ab'cd'"],[]))
+#print(opt_function_reduce(["a'bc'd'", "abc'd'", "a'b'c'd", "a'bc'd", "a'b'cd"], ["abc'd"]))
+#print(opt_function_reduce(["a'b'c'd", "a'b'cd", "a'bc'd", "abc'd'", "abc'd", "ab'c'd'", "ab'cd"],["a'bc'd'", "a'bcd", "ab'c'd"]))
+#print(opt_function_reduce(["a'b'c'd'e'", "a'bc'd'e'", "abc'd'e'", "ab'c'd'e'", "abc'de'", "abcde'",
+# "a'bcde'", "a'bcd'e'", "abcd'e'", "a'bc'de", "abc'de", "abcde",
+# "a'bcde", "a'bcd'e", "abcd'e", "a'b'cd'e", "ab'cd'e"]
+# ,[]))
+
+#print(opt_function_reduce(["A'B'C'","A'B'C","A'BC'","AB'C", "ABC'","ABC"],[]))
+
+dont care
+no essentials

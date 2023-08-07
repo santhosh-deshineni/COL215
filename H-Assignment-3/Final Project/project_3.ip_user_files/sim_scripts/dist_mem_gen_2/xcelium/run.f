@@ -1,0 +1,4 @@
+-makelib xcelium_lib/xil_defaultlib \
+  "../../../../project_3.gen/sources_1/ip/dist_mem_gen_2/dist_mem_gen_2_sim_netlist.vhdl" \
+-endlib
+
